@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NéoStruk .</title>
+                <!-- Format ICO pour compatibilité universelle -->
+    <link rel="icon" href="images/favicon_lv_32.ico" type="image/x-icon">
+    <!-- Formats PNG pour haute résolution -->
+    <link rel="icon" type="image/png" sizes="64x64" href="images/favicon_lv_64.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="images/favicon_lv_180.png">
+    <!-- Pour iOS (écran d'accueil) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_lv_180.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="contact.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">NéoStruk</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="acceuil.html">Accueil</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger" id="burger">
+            &#9776;
+        </div>
+    </header>
+
+    <section class="contactez">
+        <div class="contactez-content">
+            <h1>**Contact**</h1>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <span>(509) 4888-9959</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>valescotlamy5@gmail.com</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>37, Rue St-Louis janty<br>Port-au-Prince, HAÏTI</span>
+            </div>
+            <div class="socials">
+                <strong>Suivez-nous:</strong>
+                <div class="icons">
+                    <a href="https://www.facebook.com/share/1ZgNnW524Y/?mibextid=wwXIfr"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/lamy_valex?igsh=NDM5ZTNudWxoNWx1&utm_source=qr"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.threads.com/@lamy_valex?igshid=NTc4MTIwNjQ2YQ=="><i
+                            class="fab fa-threads"></i></a>
+                    <a
+                        href="https://www.linkedin.com/in/valescot-lamy-b08715220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/valex_ing?s=21"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@lamy__valex?_t=ZM-8xirwukHf0A&_r=1"><i
+                            class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/50931139743?text=Bonjour%2C%20je%20souhaite%20plus%20d'informations"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://youtube.com/@lamyvalex?si=ZeQUcRipt-OL7qwX"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Formulaire de Contact</h2>
+            <form id="contactForm" action="https://formsubmit.co/lamy.valescot@gmail.com" method="POST">
+                <!-- Redirection après envoi -->
+                <input type="hidden" name="_next" value="http://valexlamy.github.io/neostruk/merci.html">
+                <!-- Désactiver le captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="input-group">
+                    <input type="text" name="Prénom" placeholder="Prénom" required />
+                    <input type="text" name="Nom" placeholder="Nom" required />
+                </div>
+                <input type="tel" name="Téléhone" placeholder="Téléphone" required />
+                <input type="email" name="Email" placeholder="Email" required />
+                <textarea name="Message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Bloc navigation -->
+            <div class="footer-nav">
+                <a href="acceuil.html">Accueil</a>
+                <a href="apropos.html">À propos</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <!-- Logo au centre -->
+            <div class="footer-logo">
+                <img src="images/monlogo.png" alt="Logo de Valescot Lamy" />
+            </div>
+
+            <!-- Mentions -->
+            <div class="footer-info">
+                <p>© Designed by <span class="highlight-footer">Ing. Lamy</span> with HTML CSS JS</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // durée de l’animation en ms
+            once: true      // animation ne se joue qu'une seule fois
+        });
+    </script>
+
+</body>
+
+</html>
