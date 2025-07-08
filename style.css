@@ -7,7 +7,8 @@
 }
 
 /* Anti scroll horizontal */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   width: 100%;
@@ -21,7 +22,6 @@ img {
 
 /* Header */
 header {
-  position: absolute;
   top: 0;
   width: 100%;
   display: flex;
@@ -30,6 +30,7 @@ header {
   padding: 1rem 2rem;
   z-index: 10;
   background: white;
+  background: rgba(255, 255, 255, 0.9);
   position: fixed;
 }
 
@@ -47,7 +48,7 @@ header {
 @keyframes pulse {
   0%,
   100% {
-    text-shadow: 0 0 5px #333333
+    text-shadow: 0 0 5px #333333;
   }
   50% {
     text-shadow: 0 0 20px #333333;
@@ -464,7 +465,6 @@ ul li a:hover {
   font-size: 0.9rem;
   color: #555;
 }
-
 
 /* Logo */
 .footer-logo img {
