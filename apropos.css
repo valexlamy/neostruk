@@ -29,12 +29,12 @@ header {
   align-items: center;
   padding: 1rem 2rem;
   z-index: 10;
-  background: transparent;
+  background: white;
   position: fixed;
 }
 
 .logo {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: black;
@@ -45,18 +45,19 @@ header {
 }
 
 @keyframes pulse {
-  0%, 100% {
-    text-shadow: 0 0 5px rgba(244, 248, 248, 0.5);
+  0%,
+  100% {
+    text-shadow: 0 0 5px #333333
   }
   50% {
-    text-shadow: 0 0 20px rgba(231, 236, 236, 0.9);
+    text-shadow: 0 0 20px #333333;
   }
 }
 
 /* Animation au survol */
 .logo:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 25px rgb(233, 240, 238);
+  text-shadow: 0 0 25px #333333;
 }
 
 ul {
