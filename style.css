@@ -91,7 +91,7 @@ ul li a:hover {
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,23 +459,12 @@ ul li a:hover {
   text-align: center;
 }
 
-/* Navigation */
-.footer-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+/* mentions */
+.footer-info-1 {
+  font-size: 0.9rem;
+  color: #555;
 }
 
-.footer-nav a {
-  text-decoration: none;
-  color: #777;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.footer-nav a:hover {
-  color: #333333;
-}
 
 /* Logo */
 .footer-logo img {
